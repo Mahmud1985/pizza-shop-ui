@@ -7,9 +7,7 @@ const PizzaCard = () => {
       <Image src="/img/pizza.png" alt="" width="500" height="500" />
       <h1 className={styles.title}>THE BEST PIZZA ON THE TOWN</h1>
       <span className={styles.price}>$19.90</span>
-      <p className={styles.desc}>
-        Yahya tontişko seni yahya yaramaz çocuk. Benim tatlı bebeğim.
-      </p>
+      <p className={styles.desc}>This is description for our pizza.</p>
     </div>
   );
 };
